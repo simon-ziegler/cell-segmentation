@@ -2,9 +2,9 @@ I am Simon Ziegler, cofounder of the Cladiac GmbH and software developer in the 
 
 This repository is for a python source for cell segmentation in microscopy images. The software was tested with those libraries:
 
-OpenCV 4.2.0
 
-Scikit-Image 0.17.2
+OpenCV 4.2.0<br>
+Scikit-Image 0.17.2<br>
 
 Note: older versions of Scikit-Image gave wrong results in computing local maxima which is used for clustering.
 
@@ -15,9 +15,9 @@ python cell_segmentation.py DIRECTORY
 
 DIRECTORY is the directory which contains the input images. There are different channels:
 
-Main channel: "DAPI" 
-Red channel: "DsRed" or "Cy5"
-Green channel: "Alexa"
+Main channel: "DAPI"<br> 
+Red channel: "DsRed" or "Cy5"<br>
+Green channel: "Alexa"<br>
 
 The channel of an image is determined by having the channel name in the filename. Files are sorted by name and grouped by there ordering.
 
