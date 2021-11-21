@@ -3,6 +3,7 @@ I am Simon Ziegler, cofounder of the Cladiac GmbH and software developer in the 
 This repository is for a python source for cell segmentation in microscopy images. The software was tested with those libraries:
 
 OpenCV 4.2.0
+
 Scikit-Image 0.17.2
 
 Note: older versions of Scikit-Image gave wrong results in computing local maxima which is used for clustering.
