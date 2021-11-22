@@ -1,5 +1,3 @@
-I am Simon Ziegler, cofounder of the Cladiac GmbH and software developer in the area of machine learning and computer vision. Here i want to share some sources.
-
 This repository is for a python source for cell segmentation in microscopy images. The software was tested with those libraries:
 
 
