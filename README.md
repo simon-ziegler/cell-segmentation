@@ -25,7 +25,7 @@ Result of the segmentation procedure is a directory with the name "TIMESTAMP_res
 The "documentation.pdf" file is a description of how to use the software.
 
 <br><br>
-The cell classificationn software is started with:
+The cell classification software is started with:
 
 python cell_intensity.py DIRECTORY
 
