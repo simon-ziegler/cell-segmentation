@@ -39,6 +39,4 @@ Here, DIRECTORY is the name of the output directory of the cell segmentation. Fo
 "<span>&#95;</span>scaled_green" : original green channel image intensity scaled<br>
 "<span>&#95;</span>scaled_red" : original red channel image intensity scaled<br>
 
-<br><br>
-
 The "documentation_classification.pfd" describes how to use the classification software.
