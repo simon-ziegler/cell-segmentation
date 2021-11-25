@@ -14,9 +14,9 @@ python cell_segmentation.py DIRECTORY
 
 DIRECTORY is the directory which contains the input images. There are different channels:
 
-Main channel: "DAPI"<br> 
-Red channel: "DsRed" or "Cy5"<br>
-Green channel: "Alexa"<br>
+Main channel: "<span>&#95;</span>DAPI"<br> 
+Red channel: "<span>&#95;</span>DsRed" or "<span>&#95;</span>Cy5"<br>
+Green channel: "<span>&#95;</span>Alexa"<br>
 
 The channel of an image is determined by having the channel name in the filename. Files are sorted by name and grouped by there ordering.
 
@@ -33,11 +33,11 @@ python cell_intensity.py DIRECTORY
 Here, DIRECTORY is the name of the output directory of the cell segmentation. For the results, a directory named "TIMESTAMP_classified" contains the result files. Those are by last part in the name:
 
 "<span>&#95;</span>class_green" : classes marked in green channel<br>
-"class_red" : classes marked in red channel<br>
-"ID" : all localized cells with ID number<br>
-"info" : table with cell information<br>
-"scaled_green" : original green channel image intensity scaled<br>
-"scaled_red" : original red channel image intensity scaled<br>
+"<span>&#95;</span>class_red" : classes marked in red channel<br>
+"<span>&#95;</span>ID" : all localized cells with ID number<br>
+"<span>&#95;</span>info" : table with cell information<br>
+"<span>&#95;</span>scaled_green" : original green channel image intensity scaled<br>
+"<span>&#95;</span>scaled_red" : original red channel image intensity scaled<br>
 
 <br><br>
 
