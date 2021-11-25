@@ -32,7 +32,7 @@ python cell_intensity.py DIRECTORY
 
 Here, DIRECTORY is the name of the output directory of the cell segmentation. For the results, a directory named "TIMESTAMP_classified" contains the result files. Those are by last part in the name:
 
-"<u>class_green" : classes marked in green channel<br>
+"<span>&#95;</span>class_green" : classes marked in green channel<br>
 "class_red" : classes marked in red channel<br>
 "ID" : all localized cells with ID number<br>
 "info" : table with cell information<br>
