@@ -21,7 +21,7 @@ Green channel: "<span>&#95;</span>Alexa"<br>
 The channel of an image is determined by having the channel name in the filename. Files are sorted by name and grouped by there ordering.
 
 
-Result of the segmentation procedure is a directory with the name "TIMESTAMP_result" which contains the result files. Those are named as the channel files with the ending "MASK" and contain an single-channel integer image with pixel values corresponding to the segment (cell).
+Result of the segmentation procedure is a directory with the name "TIMESTAMP_result" which contains the result files. Those are named as the channel files with the ending "<span>&#95;</span>MASK" and contain an single-channel integer image with pixel values corresponding to the segment (cell).
 
 The "documentation.pdf" file is a description of how to use the segmentation software.
 
