@@ -1,11 +1,8 @@
-This repository is for a python source for cell segmentation in microscopy images. The software was tested with those libraries:
+This repository is for a python source for cell segmentation in microscopy images. The software was tested with the libraries in "requirements.txt". To install the libraries, use this command:
 
+python -m pip install -r requirements.txt
 
-OpenCV 4.2.0<br>
-Scikit-Image 0.17.2<br>
-Matplotlib 3.1.2<br>
-
-Note: older versions of Scikit-Image gave wrong results in computing local maxima which is used for clustering.
+Note: older versions of Scikit-Image gave wrong results in computing local maxima which is used for clustering. The applications are running with Python 3.7.5.
 
 
 The cell segmentation software is started with:
