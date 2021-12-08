@@ -11,9 +11,9 @@ python cell_segmentation.py DIRECTORY
 
 DIRECTORY is the directory which contains the input images. There are different channels:
 
-Main channel (basis of cell identification): "<span>&#95;</span>DAPI"<br> 
-Red channel: "<span>&#95;</span>DsRed" or "<span>&#95;</span>Cy5"<br>
-Green channel: "<span>&#95;</span>Alexa"<br>
+Main channel (basis of cell identification): "DAPI"<br> 
+Red channel: "DsRed" or "<span>&#95;</span>Cy5"<br>
+Green channel: "Alexa"<br>
 
 The channel of an image is determined by having the channel name in the filename. Files are sorted by name and grouped by there ordering.
 
